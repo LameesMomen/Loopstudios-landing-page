@@ -1,0 +1,94 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: rgb(193, 2, 2) !important;
+    }
+    
+    header {
+        padding: 20px;
+        background-image: url(./images/desktop/image-hero.jpg);
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    
+    .header-title {
+        width: 600px;
+        height: fit-content;
+        padding: 30px;
+        border: 1px solid white;
+    }
+    
+    .header-title p {
+        color: white;
+        font-size: 70px;
+        font-weight: lighter;
+    }
+    
+    .first-section-details {
+        background-color: white;
+        padding: 50px;
+        margin: auto;
+    }
+    
+    .first-section-details .title h1 {
+        font-size: 50px;
+        text-align: center;
+        color: #333;
+        font-weight: lighter;
+    }
+    
+    .first-section-details .paragraph p {
+        color: #777;
+    }
+    
+    .our-creation-title {
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    
+    .our-creation-seeAll {
+        border: 1px solid black;
+        font-weight: lighter;
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .image-description {
+        color: white;
+        font-weight: lighter;
+        position: relative;
+        top: -60px;
+    }
+    
+    footer {
+        background-color: black;
+        padding: 30px;
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .header-title {
+            width: 400px;
+            padding: 30px;
+        }
+        .header-title p {
+            color: white;
+            font-size: 50px;
+            font-weight: lighter;
+        }
+        .first-section-image img {
+            width: 100%;
+        }
+    }
